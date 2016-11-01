@@ -1,15 +1,14 @@
 D3 Angular Word Cloud
 ===============================================================
 ### Word Cloud
-![Word Cloud](https://github.com/lucasko-tw/angular-d3-word-cloud
-/blob/master/word-cloud.png)
+![Word Cloud](https://github.com/lucasko-tw/angular-d3-word-cloud/blob/master/word-cloud.png)
 
 ### Include Package/Resource
 ```HTML
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/d3/d3.min.js"></script>
-    <script src="bower_components/d3-cloud/build/d3.layout.cloud.js"></script>
-    <script src="d3_word_cloud.js"></script>
+ <script src="bower_components/angular/angular.js"></script>
+ <script src="bower_components/d3/d3.min.js"></script>
+ <script src="bower_components/d3-cloud/build/d3.layout.cloud.js"></script>
+ <script src="d3_word_cloud.js"></script>
 ```
 
 ### Define Words
@@ -45,7 +44,7 @@ D3 Angular Word Cloud
 
 ```
 
-and, setup <div> for word cloud.
+and, set div for word cloud.
 
 ```HTML
 <div ng-app="myApp" ng-controller="myCtrl">
@@ -62,11 +61,11 @@ Download and install node-v6.9.1.pkg
 
 ### Install bower
 
-	$sudo npm install -g bower
+	sudo npm install -g bower
 
 ### Install d3 package
 
-	$bower install d3-cloud-ng
+	bower install d3-cloud-ng
 
 After install, you will find folder under home that is called 'bower_components'
 
